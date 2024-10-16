@@ -16,5 +16,10 @@ rag = LightRAG(
 with open("./book.txt") as f:
     rag.insert(f.read())
 
+# Perform naive search
+print(rag.query("What are the top themes in this story?", param=QueryParam(mode="naive")))
+
+
+
 
 
