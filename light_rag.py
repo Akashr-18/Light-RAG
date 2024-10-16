@@ -13,5 +13,8 @@ rag = LightRAG(
     # llm_model_func=gpt_4o_complete  # Optionally, use a stronger model
 )
 
+with open("./book.txt") as f:
+    rag.insert(f.read())
+
 
 
