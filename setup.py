@@ -3,7 +3,6 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-
 vars2find = ["__author__", "__version__", "__url__"]
 vars2readme = {}
 with open("./lightrag/__init__.py") as f:
