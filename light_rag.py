@@ -19,6 +19,14 @@ with open("./book.txt") as f:
 # Perform naive search
 print(rag.query("What are the top themes in this story?", param=QueryParam(mode="naive")))
 
+# Perform local search
+print(rag.query("What are the top themes in this story?", param=QueryParam(mode="local")))
+
+# Perform global search
+print(rag.query("What are the top themes in this story?", param=QueryParam(mode="global")))
+
+# Perform hybrid search
+print(rag.query("What are the top themes in this story?", param=QueryParam(mode="hybrid")))
 
 
 
