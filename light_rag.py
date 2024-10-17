@@ -22,7 +22,7 @@ print(rag.query("What are the top themes in this story?", param=QueryParam(mode=
 # Performing local search
 print(rag.query("What are the top themes in this story?", param=QueryParam(mode="local")))
 
-# Perform global search
+# Performing global search
 print(rag.query("What are the top themes in this story?", param=QueryParam(mode="global")))
 
 # Perform hybrid search
